@@ -8,3 +8,6 @@ urlpatterns=[
     path('booking_list/',BookingList.as_view(), name='BookingList'), # view er BookingList ke booking_list hishebe url nibe 
     path('book/',BookingView.as_view(), name='booking_view'),
 ]
+
+
+#url--views

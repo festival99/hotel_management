@@ -7,8 +7,9 @@
 </head>
 <body>
     <form action="" method="POST">
+        <!-- post method sends data to the server -->
         {{form.as_p}} 
-        <!-- When Django renders a form in a template, it includes a CSRF token in the form -->
+       <!-- submission originates from the same site and user session.  -->
         {% csrf_token %}
         <button type="submit">Book Room</button>
 
